@@ -1,4 +1,4 @@
-# Folder Structure
+# **Folder Structure**
 
 ├── DPS_CHALLENGE  
 │   ├── lib                             # Contains the encoder & model files in pkl format
