@@ -2,3 +2,6 @@ xgboost
 fastapi
 uvicorn
 pandas
+matplotlib
+scikit-learn
+numpy

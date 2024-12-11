@@ -16,11 +16,11 @@ global encoder, xgb_model
 @router.on_event('startup')
 def _loadPickleFiles():
 
-    with open("lib\encoder.pkl", 'rb') as file:
+    with open("lib/encoder.pkl", 'rb') as file:
         global encoder
         encoder = pickle.load(file)
 
-    with open("lib\model.pkl", 'rb') as file:
+    with open("lib/model.pkl", 'rb') as file:
         global xgb_model
         xgb_model = pickle.load(file)
 
